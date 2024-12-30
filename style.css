@@ -1,0 +1,42 @@
+*{
+    font-style: oblique;
+    font-family: inherit;
+}
+header{
+    display: flex;
+    justify-content: 
+    space-between;   
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(184, 184, 184);
+    color: black;
+    border-radius: 70px;
+    height: 100px;
+  }
+  
+nav ul{
+    display: flex;
+    list-style: none;
+    color: rgb(7, 7, 7);
+}
+nav ul li {
+    margin: 5px;
+}
+header form button {
+    border-radius: 25px;
+    border: none;
+}
+header form input {
+    border-radius: 25px;
+    border: none;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    top: 158px;
+    left: 625px;
+}
+
+
+
